@@ -3,7 +3,7 @@
 
 Overview
 --------
-The project involves using Transfer Learning with ResNet-18 and VGG-16 pre-trained models. The pre-trained models were first frozen to prevent any changes in their weights during training. Then, the final layers of these models were modified to output 10 categories. The retrained ResNet-18 and VGG-16 models were then used to classify the STL10 dataset from the torchvision library. The dataset was split into training and test sets, and the models were retrained on the training set. The results of the retrained models were evaluated on the test data. While both models performed well, the VGG-16 outperformed the ResNet-18 in classifying images of STL10 dataset. Overall, this project demonstrates the effectiveness of Transfer Learning with pre-trained models in classifying images of a similar dataset.
+The project involves using Transfer Learning with ResNet-18 and VGG-16 pre-trained models. The pre-trained models were first frozen to prevent any changes in their weights during training. Then, the final layers of these models were modified to output 10 categories. The retrained ResNet-18 and VGG-16 models were then used to classify the STL10 dataset from the torchvision library. The dataset was split into training and test sets, and the models were retrained on the training set. The retrained models were evaluated on the test data. While both models performed well, the VGG-16 outperformed the ResNet-18 in classifying images of STL10 dataset. Overall, this project demonstrates the effectiveness of Transfer Learning with pre-trained models in classifying images of a similar dataset.
 
 Table of contents
 -----------------
@@ -161,6 +161,7 @@ Credits
 -------
 - Data for this project was collected through [torchvision](https://github.com/pytorch/vision/tree/main/torchvision) library.
 - I would like to thank [Dr. Mike X Cohen](https://www.mikexcohen.com/) for his guidance in using pre-trained models. Please visit his [website](https://www.mikexcohen.com/) to find out more about him.
+- Cover image for this repository was generated using OpenAI's [DALL.E](https://labs.openai.com/).
 
 License
 -------
