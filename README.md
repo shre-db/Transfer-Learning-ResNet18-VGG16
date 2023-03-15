@@ -158,6 +158,10 @@ Credits
 - Data for this project was collected through [torchvision](https://github.com/pytorch/vision/tree/main/torchvision) library.
 - I would like to thank [Dr. Mike X Cohen](https://www.mikexcohen.com/) for his guidance in using pre-trained models. Please visit his [website](https://www.mikexcohen.com/) to find out more about him.
 
+License
+-------
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+
 Contact
 -------
 - **Name**: Shreyas
