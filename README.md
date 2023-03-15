@@ -3,7 +3,7 @@
 
 Overview
 --------
-The project involves using transfer learning with ResNet-18 and VGG-16 pre-trained models. The pre-trained models were first frozen to prevent any changes in their weights during training. Then, the final layers of these models were modified to output 10 categories. The retrained ResNet-18 and VGG-16 models were then used to classify the STL10 dataset from the torchvision library. The dataset was split into training and test sets, and the models were retrained on the training set. The results of the retrained models were evaluated on the test data, and the retrained ResNet-18 model achieved an accuracy of 78.76%, while the VGG-16 model achieved an accuracy of 90.17%. Overall, this project demonstrates the effectiveness of transfer learning with pre-trained models in improving the performance of a model on a new dataset.
+The project involves using Transfer Learning with ResNet-18 and VGG-16 pre-trained models. The pre-trained models were first frozen to prevent any changes in their weights during training. Then, the final layers of these models were modified to output 10 categories. The retrained ResNet-18 and VGG-16 models were then used to classify the STL10 dataset from the torchvision library. The dataset was split into training and test sets, and the models were retrained on the training set. The results of the retrained models were evaluated on the test data. While both models performed well, the VGG-16 outperformed the ResNet-18 in classifying images of STL10 dataset. Overall, this project demonstrates the effectiveness of Transfer Learning with pre-trained models in classifying images of a similar dataset.
 
 Table of contents
 -----------------
@@ -19,6 +19,10 @@ Table of contents
 Primary objective
 -----------------
 The primary objective of this project is to explore the effectiveness of transfer learning with pre-trained ResNet-18 and VGG-16 models on the STL10 dataset, and to compare the performance of the retrained models on the test data.
+
+Results
+-------
+Retrained models were evaluated on the STL10 test data, and the retrained ResNet-18 model achieved an accuracy of 78.76%, while the VGG-16 model achieved an accuracy of 90.17%.
 
 Usage
 -----
